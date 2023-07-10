@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    background-color: #ebb444;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0a804f;
+    color: #fff;
+  }
+  
+  nav ul li a.active {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #0a804f;
+    color: #fff; 
+  }
